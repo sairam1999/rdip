@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration</title>
+        <style>
+            
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .label{
+            font-size: 210%;
+            float:right;
+            }
+            .nav ul {
+            list-style: none;
+            background-color:black;
+            }
+            .nav li {
+            font-size: 1.3em;
+            height: 40px;
+            display: inline-block;
+            line-height: 40px;
+            padding: 1% 2%;
+            }
+            .nav a {
+            text-decoration: none;
+            color: #fff;
+            }
+            label{
+                font-weight: bold;
+                margin-left: 1%;
+            }
+            
+           
+        
+        </style>
+    </head>
+    <body>
+        <div>
+            <a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" alt="IIIT-H_logo" class="logo" width=10% height=10%></a>
+            <a href="https://serc.iiit.ac.in/rdip" class="label">RDIP</a>
+            </div>
+    
+                    
+            <div class="nav" >
+                <ul >
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="registration.html">Registration Form</a></li>
+                </ul>
+            </div>
+
+            <form action="details.html" method="get">
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname" style="margin-left: 10%;" required>
+                <br><br>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" style="margin-left: 12%;" required>
+                <br><br>
+                
+                <label for="phone">Phone No:</label>
+                <input type="number" name="phone" id="phone" style="margin-left: 10.3%;" required>
+                <br><br>
+                
+                <label for="gender" style="margin-right: 10%;">Gender:</label>
+                <input type="radio" name="gender" value="male" id="male" required>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="other" id="other" required>
+                <label for="other">Other</label>
+                <br><br>
+
+                <label for="Reason-for-RDIP" style="margin-right:6%;">Reason for RDIP:</label>
+                <input type="checkbox" name="reason" value="html" id="html" required>
+                <label for="html">HTML</label>
+                <input type="checkbox" name="reason" value="css" id="css" required>
+                <label for="css">CSS</label>
+                <input type="checkbox" name="reason" value="javascript" id="javascript" required>
+                <label for="javascript">JavaScript</label>
+                <br><br>
+
+                <label for="college">College</label>
+                <input type="text" name="college" id="college" style="margin-left: 12%;" required>
+                <br><br>
+
+                <input type="checkbox" name="declare" id="declare" style="margin-left: 2%;" required>
+                <label for="declare" style="margin-left: 5%;">I declare above details given by me are true.</label>
+                <br><br>
+                <input type="submit" value="submit" style="margin-left: 2%;">
+                <input type="reset" value="reset" style="margin-left: 10%;">
+            </form>
+
+    </body>
+
+</html>
