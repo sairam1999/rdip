@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="Assign2-calculator.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="header"><h1>SAI's - Calculator</h1></div>
+        <div class="cal">
+          <form name="calculator">
+            <input type="text" name="output" id="result"/>
+            <br>
+            <br>
+            
+            <input type="button" value=" 1 " onclick="calculator.output.value += '1'" />
+            <input type="button" value=" 2 " onclick="calculator.output.value += '2'" />
+            <input type="button" value=" 3 " onclick="calculator.output.value += '3'" />
+            <input type="button" value=" + " onclick="document.getElementById('result').value=add()" />
+            <br/>
+            <br>
+            <input type="button" value=" 4 " onclick="calculator.output.value += '4'" />
+            <input type="button" value=" 5 " onclick="calculator.output.value += '5'" />
+            <input type="button" value=" 6 " onclick="calculator.output.value += '6'" />
+            <input type="button" value=" - " onclick="document.getElementById('result').value=sub()" />
+            </br>
+            <br>
+          
+            <input type="button" value=" 7 " onclick="calculator.output.value += '7'" />
+            <input type="button" value=" 8 " onclick="calculator.output.value += '8'" />
+            <input type="button" value=" 9 " onclick="calculator.output.value += '9'" />
+            <input type="button" value=" x " onclick="document.getElementById('result').value=mul()" />
+            </br>
+            <br>
+            <input type="reset" value=" clear "  />
+            <input type="button" value=" 0 " onclick="calculator.output.value += '0'" />
+            <input type="button" value=" / " onclick="document.getElementById('result').value=division()" />
+            <input type="button" value=" . " onclick="document.getElementById('result').value=decimal()" />
+
+            </br>
+            <br>
+            <input type="button" value="abs" onclick="document.getElementById('result').value=absolute()" />
+            <input type="button" value=" % " onclick="document.getElementById('result').value=percent()" />
+            <input type="button" value=" sqroot " onclick="document.getElementById('result').value=sqroot()" />
+            <input type="button" value=" = " onclick="document.getElementById('result').value=eq()" />
+          </form>
+          
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 10px 0px;
+  }
+body{
+    background-color: cornflowerblue;
+    font-weight: 300;
+    width: 30%;
+    overflow: hidden;
+
+}
+.header{
+    margin-left:40%;
+}
+form{
+    margin-top: 10%;
+    width: 500%;
+    margin-left: 80%;
+}
+
+
+input{
+    width: 5%;
+    padding: 0.5%;
+
+    font-size: large;
+    font-weight: 600;
+    
+
+}
+#result{
+    width:20%;
+}
+h1{
+    left: 80%;
+}

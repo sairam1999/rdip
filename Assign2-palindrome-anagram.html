@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Palindrome-Anagram</title>
+        <link href="Assign2-palindrome-anagram.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="palin">
+        <h1>PALINDROME VALIDATOR</h1>
+        <form name="pform">
+            <input type="text" name="palin" placeholder="Enter String"><br>
+            <input type="submit" onclick="checkPALINDROME(document.pform.palin.value);" value="check Palindrome" >
+        </form>
+        </div>
+        <div class="anag">
+        <h1>ANAGRAM VALIDATOR</h1>
+        <form name="aform">
+            <input type="text" name="anagram1" placeholder="Enter Text "><br>
+            <input type="text" name="anagram2" placeholder="Enter Text" ><br>
+            <input type="submit" onclick="checkANAGRAM(document.aform.anagram1.value,document.aform.anagram2.value);" value="check Anagrams" >
+        </form>
+        </div>
+
+    </body>
+</html>

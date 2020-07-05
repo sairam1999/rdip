@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+
+.fstyle{
+    margin-left: 20%;
+    width: 500px;
+    height: 500px;
+    
+    
+}
+label,input{
+    font-size: larger;
+    font-weight: 500;
+    margin:1% 3%;
+}
+.name{
+    margin:3% 7% 3%;
+}
+.email{
+    margin:3% 7% 3%;
+}

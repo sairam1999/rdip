@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+
+label,input{
+    font-size: larger;
+    font-weight: 500;
+    margin:3% 3%;
+}
+.survive{
+    display: inline-block;
+    
+    margin:5% 30%;
+    
+}

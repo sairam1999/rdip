@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Survival Game</title>
+    <link rel="stylesheet" href="Assign2-survivalGame.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="survive">
+    <h1>Who Will Survive?</h1>
+    <p>Survival Of The Fittest!!!!</p>
+    <form name=gform>
+        
+        <label>OBJECT1</label> 
+        <input type="text" name="input1" id="input1" /><br>
+        <label>OBJECT2</label>
+        <input type="text" name="input2" id="input2" />
+        <br>
+        
+        <input type="button" onclick="generateRandomNumber()" value="generate values">
+        <input type="submit" onclick="checkSURVIVOR(document.gform.input1.value,document.gform.input2.value);" value="check Survivor">
+        </div>
+    </form>
+</body>
+</html>

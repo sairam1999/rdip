@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Form validation </title>
+<link rel='stylesheet' href='Assign2-formValidation.css'  />
+</head>
+<body >
+    <h1>Form Validation</h1>
+    <div class="fstyle">
+<form name="vform" method="post" onsubmit="return doValidate();" class="formstyle">
+    <label>Name: *</label>
+    <input type="text" class="name" name="requiredname" /><br>
+    <label>Email: *</label>
+    <input type="text" class="email" name="requiredemail" /><br>
+    <label>Phone No*</label>
+    <input type="text" class="phone" name="requiredphone" />
+
+    <input name="submit" type="submit"  value="Submit" />           
+</form>
+</div>
+  
+<script src="script.js"> </script>
+</body>
+</html>
